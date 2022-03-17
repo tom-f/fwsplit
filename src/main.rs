@@ -67,11 +67,3 @@ struct WAFExclusion {
     selector: String,
     selector_match_operator: String,
 }
-
-// #[test]
-// fn regex_test() {
-//     let quotes_re = Regex::new(r#".*"(\w+)":.*"#).unwrap();
-//     let subj = "";
-
-//     quotes_re.re
-// }
